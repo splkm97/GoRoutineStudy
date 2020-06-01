@@ -8,7 +8,6 @@ but, 통신을 통해 메모리를 공유하라!
 **sync패키지: WaitGroup, Mutex, Cond, ...
 
 제너레이터(Generators)
--> python 라이브러리에도 있다!
 -> 제너레이터는 반복자(Iterator)를 생성하는 함수
 
 반복자(Iterator)
