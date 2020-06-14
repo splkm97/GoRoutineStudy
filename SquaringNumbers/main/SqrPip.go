@@ -40,7 +40,7 @@ func main() {
 
 func merge(cs ...<-chan int) <-chan int {
 	var wg sync.WaitGroup
-	out := make(chan int)
+	out := make(chan int, 1)
 
 	// Start an output goroutine for each input channel in cs.  output
 	// copies values from c to out until c is closed, then calls wg.Done.
